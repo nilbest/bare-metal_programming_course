@@ -11,7 +11,7 @@
 int main(void)
 {
 
-	tim2_pa5_output_compare();
+	tim2_pa5_output_compare(); //Now this function toggle the LED PIN. There is no need to use the Output Data Register!!!
 
 	while(1)
 	{
